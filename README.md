@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ar">
 <head>
@@ -8,96 +7,73 @@
 
 <style>
 body{
-    margin:0;
-    font-family:Arial;
-    background:#f4f1ed;
-    direction:rtl;
-    text-align:center;
+margin:0;
+font-family:Arial;
+direction:rtl;
+background:#f4f1ed;
+}
+
+nav{
+background:#3e2c1c;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
 }
 
 header{
-    background:#5a3e2b;
-    color:white;
-    padding:40px 20px;
-}
-
-header h1{
-    margin:0;
-    font-size:45px;
-}
-
-header p{
-    margin-top:10px;
-    font-size:18px;
+background:#5a3e2b;
+color:white;
+padding:60px 20px;
+text-align:center;
 }
 
 .section{
-    padding:50px 20px;
+padding:60px 20px;
+text-align:center;
 }
 
-.about{
-    background:white;
-}
-
-.gallery{
-    background:#e8dfd8;
-}
-
-.gallery img{
-    width:250px;
-    height:200px;
-    object-fit:cover;
-    margin:10px;
-    border-radius:10px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.2);
-}
-
-.whatsapp{
-    background:#25D366;
-    color:white;
-    padding:15px 30px;
-    text-decoration:none;
-    font-size:18px;
-    border-radius:8px;
-    display:inline-block;
-    margin-top:20px;
+.btn{
+background:#d4af37;
+padding:15px 30px;
+color:black;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
 }
 
 footer{
-    background:#2b1d14;
-    color:white;
-    padding:20px;
+background:#2b1d14;
+color:white;
+padding:20px;
+text-align:center;
 }
 </style>
 </head>
 
 <body>
 
+<nav>
+<a href="index.html">الرئيسية</a>
+<a href="products.html">المنتجات</a>
+<a href="about.html">من نحن</a>
+<a href="contact.html">تواصل معنا</a>
+</nav>
+
 <header>
 <h1>Woodmakers</h1>
 <p>صناع الخشب للأثاث الراقي داخل مصر</p>
+<a class="btn" href="products.html">تصفح المنتجات</a>
 </header>
 
-<section class="section about">
-<h2>من نحن</h2>
-<p>
-نحن متخصصون في تصميم وتصنيع الأثاث الخشبي العصري بجودة عالية وتشطيبات احترافية.
-هدفنا تقديم منتج قوي – أنيق – يعيش معك سنوات.
-</p>
-</section>
-
-<section class="section gallery">
-<h2>أعمالنا</h2>
-<img src="https://images.unsplash.com/photo-1616628182508-6c63fdd9cce3" alt="">
-<img src="https://images.unsplash.com/photo-1582582494700-68b7f8d1eab1" alt="">
-<img src="https://images.unsplash.com/photo-1615874959474-d609969a6c4f" alt="">
-</section>
-
 <section class="section">
-<h2>تواصل معنا الآن</h2>
-<a class="whatsapp" href="https://wa.me/201000000000" target="_blank">
-تواصل عبر واتساب
-</a>
+<h2>جودة – تصميم – احتراف</h2>
+<p>نقدم أفضل الأثاث الخشبي العصري بأعلى جودة وتشطيب مميز.</p>
 </section>
 
 <footer>
